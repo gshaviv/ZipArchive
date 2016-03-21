@@ -69,9 +69,9 @@
 		B423AE641C0DF7950004A2F1 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE411C0DF7950004A2F1 /* ioapi.h */; };
 		B423AE651C0DF7950004A2F1 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE421C0DF7950004A2F1 /* mztools.c */; };
 		B423AE661C0DF7950004A2F1 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE431C0DF7950004A2F1 /* mztools.h */; };
-		B423AE671C0DF7950004A2F1 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE441C0DF7950004A2F1 /* unzip.c */; };
+		B423AE671C0DF7950004A2F1 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE441C0DF7950004A2F1 /* unzip.c */; settings = {COMPILER_FLAGS = "-Xanalyzer -analyzer-disable-all-checks"; }; };
 		B423AE681C0DF7950004A2F1 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE451C0DF7950004A2F1 /* unzip.h */; };
-		B423AE691C0DF7950004A2F1 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE461C0DF7950004A2F1 /* zip.c */; };
+		B423AE691C0DF7950004A2F1 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B423AE461C0DF7950004A2F1 /* zip.c */; settings = {COMPILER_FLAGS = "-Xanalyzer -analyzer-disable-all-checks"; }; };
 		B423AE6A1C0DF7950004A2F1 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE471C0DF7950004A2F1 /* zip.h */; };
 		B423AE6B1C0DF7950004A2F1 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B423AE6C1C0DF7950004A2F1 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B423AE491C0DF7950004A2F1 /* SSZipArchive.m */; };
@@ -553,6 +553,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-w",
+					"-analyzer-disable-all-checks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.houzz.app.zip;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
@@ -573,6 +577,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-w",
+					"-analyzer-disable-all-checks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.houzz.app.zip;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PROVISIONING_PROFILE = "0eb6405e-d817-4762-a524-0e6a2de5cfd7";
@@ -634,6 +642,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-w",
+					"-analyzer-disable-all-checks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.houzz.app.zip;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PROVISIONING_PROFILE = "7642293e-12b0-4cd3-81f5-0d8f60a47de5";
