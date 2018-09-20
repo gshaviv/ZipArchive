@@ -701,7 +701,7 @@
 			};
 			name = Release;
 		};
-		E40441F11C9E8FE200CA5918 /* Distribution Ad Hoc */ = {
+		E40441F11C9E8FE200CA5918 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -749,9 +749,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Distribution Ad Hoc";
+			name = AdHoc;
 		};
-		E40441F21C9E8FE200CA5918 /* Distribution Ad Hoc */ = {
+		E40441F21C9E8FE200CA5918 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -775,9 +775,9 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
-			name = "Distribution Ad Hoc";
+			name = AdHoc;
 		};
-		E40441F31C9E8FE200CA5918 /* Distribution Ad Hoc */ = {
+		E40441F31C9E8FE200CA5918 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -797,7 +797,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
-			name = "Distribution Ad Hoc";
+			name = AdHoc;
 		};
 		E4D891D01CA1C6F0003069E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -824,7 +824,7 @@
 			};
 			name = Release;
 		};
-		E4D891D21CA1C6F0003069E8 /* Distribution Ad Hoc */ = {
+		E4D891D21CA1C6F0003069E8 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -835,7 +835,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = "Distribution Ad Hoc";
+			name = AdHoc;
 		};
 /* End XCBuildConfiguration section */
 
@@ -845,7 +845,7 @@
 			buildConfigurations = (
 				AFF75A2A1C37279600F450AC /* Debug */,
 				AFF75A2B1C37279600F450AC /* Release */,
-				E40441F31C9E8FE200CA5918 /* Distribution Ad Hoc */,
+				E40441F31C9E8FE200CA5918 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -855,7 +855,7 @@
 			buildConfigurations = (
 				B423AE201C0DF76A0004A2F1 /* Debug */,
 				B423AE211C0DF76A0004A2F1 /* Release */,
-				E40441F11C9E8FE200CA5918 /* Distribution Ad Hoc */,
+				E40441F11C9E8FE200CA5918 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -865,7 +865,7 @@
 			buildConfigurations = (
 				B423AE231C0DF76A0004A2F1 /* Debug */,
 				B423AE241C0DF76A0004A2F1 /* Release */,
-				E40441F21C9E8FE200CA5918 /* Distribution Ad Hoc */,
+				E40441F21C9E8FE200CA5918 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -875,7 +875,7 @@
 			buildConfigurations = (
 				E4D891D01CA1C6F0003069E8 /* Debug */,
 				E4D891D11CA1C6F0003069E8 /* Release */,
-				E4D891D21CA1C6F0003069E8 /* Distribution Ad Hoc */,
+				E4D891D21CA1C6F0003069E8 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
